@@ -10,13 +10,19 @@
     <main>
 
       <section id="validation-section">
-        <h2>Valida tu tarjeta para continuar con la operación</h2>
+        <h2 class="text-valid-card">Valida tu tarjeta para continuar con la operación</h2>
         <ul id="imag-card">
           <li><img src="../imagenes/visa.svg" /></li>
           <li><img src="../imagenes/mastercard.svg"/></li>
           <li><img src="../imagenes/amex.svg"/></li>
           <li><img src="../imagenes/discover.svg"/></li>
         </ul>
+
+        <form>
+          <input type="text" id="name-card" name="input-name-card" placeholder="nombre de tarjeta" required>
+          <input type="number" id="num-card" name="input-num-card" placeholder="número de tarjeta" required>
+          <input type="button" onclick="alert('Valido!')" value="Validar Tarjeta">
+        </form>
       </section>
 
     </main>

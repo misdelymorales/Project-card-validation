@@ -3,10 +3,25 @@
     font-family: roboto;
 }
 
+.text-valid-card{
+    text-align: center;
+}
+
 ul {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
 #imag-card li img{
     width: 50px;
+    padding: 5px;
+}
+
+#validation-section{
+    align-items: center;
+}
+.style-form{
+    display: table-row;
 }
