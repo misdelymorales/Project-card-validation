@@ -1,0 +1,12 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+*{
+    font-family: roboto;
+}
+
+ul {
+    list-style: none;
+  }
+
+#imag-card li img{
+    width: 50px;
+}
