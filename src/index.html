@@ -19,10 +19,14 @@
         </ul>
 
         <form>
-          <input type="text" id="nameCard" name="input-name-card" placeholder="nombre de tarjeta" required>
-          <input type="text" id="creditCardNumber" name="input-num-card" placeholder="número de tarjeta" maxlength="16" required>
-          <input type="button" onclick="alert('Valido!')" value="Validar Tarjeta">
+          <input type="text" id="nameCard"  placeholder="nombre de tarjeta" required>
+          <input type="number" id="creditCardNumber" placeholder="número de tarjeta" maxlength="16" required>
+          <button type="button">Validar Tarjeta</button>
         </form>
+
+        <div id="result" class="alert-result">
+          "Este número de tarjeta de crédito es válido"
+        </div>
       </section>
 
     </main>
