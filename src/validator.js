@@ -15,9 +15,12 @@ const validator = {
       sum += currentNumber;
     }
     return sum%10 === 0; 
-     
   }
-   
+
+ // maskify: function(){
+
+  //}
+
 };
 
 export default validator;
