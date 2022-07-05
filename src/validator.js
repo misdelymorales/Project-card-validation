@@ -1,5 +1,7 @@
 const validator = {
   
+  //Método isValid
+  // El valor de cardNumber entra como un arreglo ordenado y depurado
   isValid: function(cardNumber){
     let sum = 0
 
@@ -17,10 +19,15 @@ const validator = {
     return sum%10 === 0; 
   }
 
- // maskify: function(){
+  //Método Maskify
+  maskify: function(inputValue){
 
-  //}
-
-};
+    const fullNumber = inputValue;
+    let lastDigits = fullNumber.slice(-4);
+    let maskedNumber = lastDigits.padStart(fullNumber.length, '*');
+  }
+  return maskedNumber.join('');
+console.log(maskedNumber);
+}
 
 export default validator;
