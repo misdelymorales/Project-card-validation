@@ -7,9 +7,30 @@ body{
     margin: 0;
 }
 
+#logo-section{
+    font-size: xx-large;
+}
+
+#logo-text{
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+
+.text-logo-y{
+    color: #ffe521;
+    font-weight: 800;
+}
+
+h2 span{
+    color: #333333;
+    font-weight: 800;
+}
+
 .text-valid-card{
     text-align: center;
     margin-bottom: 3rem;
+    color: #333333;
 }
 
 ul {
