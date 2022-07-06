@@ -4,6 +4,8 @@ const validator = {
 
   //Método isValid
   isValid: function(){
+    if(!this.cardNumber || this.cardNumber==='') return false;
+    
     let sum = 0
     let reverseNumber = this.cardNumber.split('').reverse();  // Se guarda en el numero invertido en un arreglo
 

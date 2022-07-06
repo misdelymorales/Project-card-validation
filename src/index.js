@@ -7,11 +7,9 @@ function ejecutarEvaluacion(e){
 
     // Se muestra mensaje según resultado obtenido
     if(validationResult == true){
-        document.getElementById("result-c").style.display="block";
-        document.getElementById("result-w").style.display="none";
+        document.getElementById('validation-ok').style.display="block";
     } else{
-        document.getElementById("result-c").style.display="none";
-        document.getElementById("result-w").style.display="block";
+        document.querySelector('.form-input-card').classList.add('error');
     }
  }
 
@@ -28,6 +26,8 @@ function maskCard(e){
 document.getElementById('butVal').addEventListener('click', maskCard);
 
 document.getElementById('creditCardNumber').addEventListener('input',function(e){
+    document.querySelector('.form-input-card').classList.remove('error');
+    document.getElementById('validation-ok').style.display="none";
     validator.cardNumber = e.target.value;
 })
 
