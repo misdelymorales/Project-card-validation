@@ -1,9 +1,8 @@
 # Validación de tarjeta de crédito para tienda Toria
 
 UI/UX Página 
-<img src="./src/imagenes/Diseño.png" />
 
-![Mockup de página] (https://github.com/misdelymorales/SCL021-card-validation/blob/main/src/imagenes/Dise%C3%B1o.png?raw=true)
+![Product Name Screen Shot][product-screenshot] (https://github.com/misdelymorales/SCL021-card-validation/blob/main/src/imagenes/Dise%C3%B1o.png?raw=true)
 
 ## Descripción de proyecto
 
@@ -21,7 +20,6 @@ El proyecto fue realizado con los siguientes lenguajes:
 Realizado por Misdely Morales
 
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
@@ -31,3 +29,4 @@ Realizado por Misdely Morales
 [css-url]:https://www.w3.org/Style/CSS/Overview.en.html
 [Vue.js]: https://www.pinterest.com/pin/814940495073800533/logo-css-css3-icono-2582747/
 [JS-url]:https://www.javascript.com/
+[product-screenshot]: https://github.com/misdelymorales/SCL021-card-validation/blob/main/src/imagenes/Dise%C3%B1o.png?raw=true
