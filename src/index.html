@@ -8,17 +8,24 @@
   <body>
     <header></header>
     <main>
+
+      <!--Sección Izquierda de Logo --> 
+
       <section id="logo-section" class="vertical-section">
         <div id="logo-text">
         <h2 class="text-logo-y"> < <span>Toriapay</span> > </h2> 
         <img src="./imagenes/cashless-payment.png">
         </div>
       </section>
+
+      <!--Sección de validación de tarjeta -->
+
         <section id="validation-section" class="vertical-section">
         <form id="validation-form">
           <h2 class="text-valid-card">
             Valida tu tarjeta para continuar con la operación
           </h2>
+
           <ul id="imag-card">
             <li><img src="./imagenes/visa.svg" /></li>
             <li><img src="./imagenes/mastercard.svg" /></li>
@@ -46,6 +53,8 @@
               maxlength="16"
               required
             />
+
+            <!--Botón mostrar -->
             <button type="button" id="butOriginal">Mostrar</button>
             <span>Número de tarjeta inválido</span>
           </div>
@@ -85,10 +94,13 @@
               <input type="text" placeholder="ej: 012" value="" maxlength="3" required/>
             </div>
           </div>
+
+          <!--Botón validar -->
           <button type="button" id="butVal">Validar Tarjeta</button>
         </form>
       </section>
 
+      <!--mensaje de válido -->
       <div id="validation-ok"><p>Tu tarjeta es válida</p></div>
     </main>
     <footer></footer>

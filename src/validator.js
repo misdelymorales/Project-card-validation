@@ -1,11 +1,11 @@
 const validator = {
-  
-  cardNumber: '',
+  // cardNumber 
+  cardNumber: '', 
 
   //Método isValid
   isValid: function(){
     if(!this.cardNumber || this.cardNumber==='') return false;
-    
+
     let sum = 0
     let reverseNumber = this.cardNumber.split('').reverse();  // Se guarda en el numero invertido en un arreglo
 
@@ -29,7 +29,6 @@ const validator = {
     let lastDigits = this.cardNumber.substring(this.cardNumber.length - 4);
     const maskedNumber = lastDigits.padStart(this.cardNumber.length, '*');
     return maskedNumber;
-  
   }
   
 }
