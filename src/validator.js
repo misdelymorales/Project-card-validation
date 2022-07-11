@@ -3,7 +3,11 @@ const validator = {
   cardNumber: '', 
 
   //Método isValid
-  isValid: function(){
+  isValid: function(input){
+    if (input !== undefined){
+      this.cardNumber = input
+    }
+
     if(!this.cardNumber || this.cardNumber==='') return false;
 
     let sum = 0
@@ -24,10 +28,14 @@ const validator = {
   },
 
   //Método Maskify
-  maskify: function(){
+  maskify: function(input){
 
+    if (input !== undefined){
+      this.cardNumber = input
+    }
+    
     let lastDigits = this.cardNumber.substring(this.cardNumber.length - 4);
-    const maskedNumber = lastDigits.padStart(this.cardNumber.length, '*');
+    const maskedNumber = lastDigits.padStart(this.cardNumber.length, '#');
     return maskedNumber;
   }
   

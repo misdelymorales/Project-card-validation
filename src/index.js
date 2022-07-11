@@ -1,7 +1,7 @@
 import validator from "./validator.js";
 
 //Función que hace validación por algoritmo de Luhn
-function ejecutarEvaluacion(e) {
+function ejecutarEvaluacion() {
   const validationResult = validator.isValid(); // Se guarda el resultado de la función
 
   // Se muestra mensaje según resultado obtenido
@@ -10,11 +10,11 @@ function ejecutarEvaluacion(e) {
   } else {
     document.querySelector(".form-input-card").classList.add("error");
   }
-  maskCard(e); // se llama función maskCard
+  maskCard(); // se llama función maskCard
 }
 
 //Función que enmascara número de tarjeta
-function maskCard(e) {
+function maskCard() {
   const maskifyResult = validator.maskify();
   document.getElementById("creditCardNumber").value = maskifyResult;
 }
@@ -29,7 +29,7 @@ function readInput(e) {
 }
 
 //Función muestra número original del input
-function showOriginalNumber(e) {
+function showOriginalNumber() {
   document.getElementById("creditCardNumber").value = validator.cardNumber;
 }
 
