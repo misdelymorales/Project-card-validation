@@ -1,5 +1,5 @@
 const validator = {
-  // cardNumber 
+  // cardNumber entra como número
   cardNumber: '', 
 
   //Método isValid

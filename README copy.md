@@ -1,26 +1,40 @@
-# Validación de tarjeta de crédito para tienda Laboratoria
+# ToriaPay
 
+## Resumen
+ToriaPay es una página ficticia de pago de la web de Laboratoria para validar las tarjetas de créditos.
 
-![Product Name Screen Shot][product-screenshot]
+![product-Screenshot]
 ***
 
-## Descripción de proyecto
-Página de Laboratoria donde se accede a página de pago __Toriapay__ para válidar tarjeta de crédito y continuar con la transacción.
+## Investigación UX
 
-La válidación es realizada mediante [Algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn), además se aplica una función para enmáscarar los dígitos de la tarjeta exceptuando los últimos 4 y de esta manera brindarle mayor seguridad al usuario al válidar su método de pago.
+### 1. Usuarios
+El proyecto va dirigido a cualquier persona que realice compra ficticia en la web de Laboratoria, donde una vez seleccionado el producto accede a página __Toriapay__ para válidar tarjeta de crédito y continuar con la transacción.
 
-***
-### Construido con
+### 2. Prototipo inicial
+
+![productMockup-screenshot]
+
 El proyecto fue realizado con los siguientes lenguajes:
 
 * [![HTML][Vue.html]][html-url]
 * [![CSS][Vue.css]][css-url]
 * [![JavaScript][Vue.js]][JS-url]
-***
 
-## Autor
+### 3. Feedback
 
-Realizado por Misdely Morales
+* Buen diseño y elección de colores.
+* Orientación en código js para la aceptación de sólo números en el input.
+
+### 4. Prototipo Final
+
+![product-Screenshot]
+![tarjetaValida]
+![tarjetaInvalida]
+
+La válidación es realizada mediante [Algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn), además se aplica una función para enmáscarar los dígitos de la tarjeta exceptuando los últimos 4 y de esta manera brindarle mayor seguridad al usuario al válidar su método de pago.
+
+Para visualizar el proyecto pincha [aquí][ToriaPay]
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -37,4 +51,11 @@ Realizado por Misdely Morales
 [Vue.js]:https://img.shields.io/badge/-JavaScript-black.svg?style=for-the-badge&logo=javascript&colorB=555
 
 [JS-url]:https://www.javascript.com/
-[product-screenshot]: https://github.com/misdelymorales/SCL021-card-validation/blob/main/src/imagenes/Dise%C3%B1o.png?raw=true
+
+[productMockup-screenshot]: https://github.com/misdelymorales/SCL021-card-validation/blob/main/src/imagenes/Dise%C3%B1o.png?raw=true
+
+[product-Screenshot]: ./src/imagenes/ToriaPay.PNG
+[tarjetaValida]:./src/imagenes/tarjetaValida.PNG
+[tarjetaInvalida]:./src/imagenes/tarjetaInvalida.PNG
+
+[ToriaPay]:https://project-toriapay.vercel.app/

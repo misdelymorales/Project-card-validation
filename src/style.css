@@ -191,3 +191,8 @@ main{
     margin: 0;
     font-weight: 500;
 }
+
+footer{
+    text-align: center;
+    color: #333333;
+}
