@@ -25,6 +25,8 @@ El proyecto fue realizado con los siguientes lenguajes:
 
 * Buen diseño y elección de colores.
 * Orientación en código js para la aceptación de sólo números en el input.
+* Realizar un protito dinámico para observar la funcionalidad del producto final
+* Orientación en función maskify y expresiones regulares
 
 ### 4. Prototipo Final
 
@@ -34,7 +36,6 @@ El proyecto fue realizado con los siguientes lenguajes:
 
 La válidación es realizada mediante [Algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn), además se aplica una función para enmáscarar los dígitos de la tarjeta exceptuando los últimos 4 y de esta manera brindarle mayor seguridad al usuario al válidar su método de pago.
 
-Para visualizar el proyecto pincha [aquí][ToriaPay]
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -58,4 +59,3 @@ Para visualizar el proyecto pincha [aquí][ToriaPay]
 [tarjetaValida]:./src/imagenes/tarjetaValida.PNG
 [tarjetaInvalida]:./src/imagenes/tarjetaInvalida.PNG
 
-[ToriaPay]:https://project-toriapay.vercel.app/
