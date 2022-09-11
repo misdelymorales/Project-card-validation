@@ -18,7 +18,7 @@ El proyecto va dirigido a cualquier persona que realice compra ficticia en la we
 El proyecto fue realizado con los siguientes lenguajes:
 
 * [![HTML][Vue.html]][html-url]
-* [![CSS][Vue.css]][css-url]
+* [![Vue.css]][css-url]
 * [![JavaScript][Vue.js]][JS-url]
 
 ### 3. Feedback
