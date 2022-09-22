@@ -3,6 +3,7 @@
 ## Resumen
 
 ToriaPay es una página ficticia de pago de la web de Laboratoria para validar las tarjetas de créditos.
+Visita la página en el siguiente [link](https://misdelymorales.github.io/Project-card-validation/)
 
 ![product-Screenshot]
 
