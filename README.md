@@ -56,6 +56,8 @@ La válidación es realizada mediante [Algoritmo de Luhn](https://es.wikipedia.o
 [productMockup-screenshot]: https://github.com/misdelymorales/SCL021-card-validation/blob/main/src/imagenes/Dise%C3%B1o.png?raw=true
 
 [product-Screenshot]: ./src/imagenes/ToriaPay.PNG
+
 [tarjetaValida]:./src/imagenes/tarjetaValida.PNG
+
 [tarjetaInvalida]:./src/imagenes/tarjetaInvalida.PNG
 
