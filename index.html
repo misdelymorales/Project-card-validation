@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+
+      <!--Sección Izquierda de Logo --> 
+
+      <section id="logo-section" class="vertical-section">
+        <div id="logo-text">
+        <h2 class="text-logo-y"> &lt; <span>Toriapay</span> &gt; </h2> 
+        <img src="./imagenes/cashless-payment.png">
+        </div>
+      </section>
+
+      <!--Sección de validación de tarjeta -->
+
+        <section id="validation-section" class="vertical-section">
+        <form id="validation-form">
+          <h2 class="text-valid-card">
+            Toriapay
+          </h2>
+
+          <ul id="imag-card">
+            <li><img src="./imagenes/visa.svg" /></li>
+            <li><img src="./imagenes/mastercard.svg" /></li>
+            <li><img src="./imagenes/amex.svg" /></li>
+            <li><img src="./imagenes/discover.svg" /></li>
+          </ul>
+
+          <div class="form-input">
+            <label>Nombre en tarjeta *</label>
+            <input
+              type="text"
+              id="nameCard"
+              placeholder="ej: Misdely Morales"
+              required
+            />
+          </div>
+
+          <div class="form-input form-input-card">
+            <label>Número de tarjeta *</label>
+            <input
+              type="text"
+              id="creditCardNumber"
+              placeholder="ej: 0123456789123456"
+              value=""
+              maxlength="16"
+              required
+            />
+
+            <!--Botón mostrar -->
+            <button type="button" id="butOriginal">Mostrar</button>
+            <span>Número de tarjeta inválido</span>
+          </div>
+
+          <div class="w50">
+            <div class="form-input">
+              <label>Fecha de vencimiento *</label>
+              <select>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+              <select>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+              </select>
+            </div>
+          </div>
+          <div class="w50">
+            <div class="form-input">
+              <label>CVV *</label>
+              <input type="text" placeholder="ej: 012" value="" maxlength="3" required/>
+            </div>
+          </div>
+
+          <!--Botón validar -->
+          <button type="button" id="butVal">Validar Tarjeta</button>
+        </form>
+      </section>
+
+      <!--mensaje de válido -->
+      <div id="validation-ok"><p>Tu tarjeta es válida</p></div>
+    </main>
+    <footer>
+      © 2022 Toriapay
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

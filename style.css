@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100,500,700,800&display=swap');
+*{
+    font-family: roboto;
+}
+
+body{
+    margin: 0;
+}
+
+#logo-section{
+    font-size: xx-large;
+}
+
+#logo-text{
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+
+.text-logo-y{
+    color: #ffe521;
+    font-weight: 800;
+}
+
+h2 span{
+    color: #333333;
+    font-weight: 800;
+}
+
+.text-valid-card{
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #333333;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 60px;
+  }
+
+#imag-card li img{
+    width: 50px;
+    padding: 5px;
+}
+
+.style-form{
+    display: table-row;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+}
+
+.cheked {
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+main{
+    display: flex;
+}
+
+.vertical-section{
+    padding: 0;
+    width: 50%;
+    display: inline-block;
+    height: 100vh;
+}
+
+#logo-section{
+    background-color: #f3f3f3;
+}
+
+#validation-form{
+    width: 60%;
+    margin-left: 20%;
+}
+
+#validation-section{
+    align-items: center;
+    padding: 5rem 2rem 2rem 2rem;
+    box-sizing: border-box;
+}
+
+.form-input{
+    margin-bottom: 1rem;
+}
+
+.form-input > label, .form-input>input{
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    color: #333333;
+}
+
+.form-input > input, .form-input >select{
+    padding: 5px 7.5px;
+    border-radius: 3px;
+    border: solid 1px #ddd;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.form-input.error > input{
+    border-color:rgba(244,67,54,1);
+}
+
+.form-input.error > span{
+    display: block;
+}
+
+.form-input > span{
+    display: none;
+}
+
+.form-input > label{
+    font-weight: 800;
+}
+
+.form-input > span{
+    color: rgba(244,67,54,1);
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    font-size: 12px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#nameCard{
+    letter-spacing: 1px;
+}
+
+#creditCardNumber{
+    letter-spacing: 1px;
+}
+
+.w50{
+    width: 48%;
+    display: inline-flex;
+}
+
+#butVal{
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #333333;
+    background-color: #ffe521;
+    width: 100%;
+    font-weight: 800;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#butOriginal{
+    position: absolute;
+    right: 7px;
+    top: 24px;
+    font-size: 10px;
+    border: none;
+    border-radius: 3px;
+    color: #333333;
+    background-color: #ffe521;
+    cursor: pointer;
+}
+
+.form-input-card{
+    position: relative;
+}
+
+#validation-ok{
+    position: fixed;
+    right: 30px;
+    top: 11px;
+    background: rgba(70, 136, 71, 0.2);
+    border: solid 1px #ddd;
+    padding: 9px;
+    border-radius: 3px;
+    width: 43%;
+    text-align: center;
+    color: rgba(70, 136, 71, 1);
+    display: none;
+}
+
+#validation-ok >p{
+    margin: 0;
+    font-weight: 500;
+}
+
+footer{
+    text-align: center;
+    color: #333333;
+}
